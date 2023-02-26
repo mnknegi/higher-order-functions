@@ -9,4 +9,4 @@ Higher order functions are those functions that operates on other functions by e
 
 ## Sorted
 
-Example: [Sorted](Sorted.swift)
+Example: [Sorted](HigherOrderFunctions.playground/Sources/Sorted.swift)
