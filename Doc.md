@@ -10,3 +10,10 @@ Higher order functions are those functions that operates on other functions by e
 ## Sorted
 
 Example: [Sorted](HigherOrderFunctions.playground/Sources/Sorted.swift)
+
+## Map
+
+Map Iterates through all the elements in an array and returns an updated array.
+
+Example: [Sorted](HigherOrderFunctions.playground/Sources/Map.swift)
+
