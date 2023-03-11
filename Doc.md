@@ -1,8 +1,13 @@
 # **Higher Order Functions**
 
-Higher order functions are those functions that operates on other functions by either taking a function as an arguement, or returning a function.
+In mathematics and computer science, a higher order function is a function that does at least on of the following:
 
-## Index
+- Takes one or more function as the argument.
+- Returns a function as its result.
+
+There are some functionalities which are already there in swift from which we can benifit from and we can avoid them implementing on our own. Higher order functions are great tool to use in our code and we can avoid writing extra lines of code to achieve the same result with that.
+
+## Table of Content
 * [Sorted](#Sorted)
 * [Map](#Map)
 * [FlatMap](#FlatMap)
