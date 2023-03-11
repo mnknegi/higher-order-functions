@@ -30,7 +30,7 @@ The function performs an operatiion on all the elements of the collection and re
 ```
 collection.map(transform: (Element.Type) throws -> T)
 
-collection.map { ((Element.Type) -> T) in
+collection.map { ((Element) -> T) in
 	// code
 }
 ```
@@ -39,3 +39,27 @@ collection.map { ((Element.Type) -> T) in
 
 
 ## CompactMap
+
+`compactMap` function is similar to `map` function with one big difference. The resulting collection doesn't contains `nil` values.
+
+```
+collection.compactMap(transform: (Element.Type?) throws -> ElementOfResult?)
+
+numbers.compactMap { Element in
+    // code
+}
+
+```
+
+
+## FlatMap
+
+`flatMap` is useful when we have collections inside collection and we want to merge them into a single collection.
+
+```
+collection.flatMap(transform: ([Element.Type]) throws -> Sequence)
+
+class10Students.flatMap { Element in
+    // code
+}
+```
