@@ -45,7 +45,7 @@ collection.map { ((Element) -> T) in
 ```
 collection.compactMap(transform: (Element.Type?) throws -> ElementOfResult?)
 
-numbers.compactMap { Element in
+collection.compactMap { Element in
     // code
 }
 
@@ -59,7 +59,7 @@ numbers.compactMap { Element in
 ```
 collection.flatMap(transform: ([Element.Type]) throws -> Sequence)
 
-class10Students.flatMap { Element in
+collection.flatMap { Element in
     // code
 }
 ```
